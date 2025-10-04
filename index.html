@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <title>Jacques Hauzeur | Daroga Online</title>
 </head>
+
 <body>
     <div class="profile-container">
         <div class="header-image">
             <div class="city-skyline"></div>
         </div>
-        
+
         <div class="profile-content">
             <div class="profile-header">
                 <div class="profile-pic-wrapper">
@@ -27,7 +31,8 @@
                     <h1>Jacques Hauzeur</h1>
                     <h2>Daroga Online // </h2>
                     <p class="description">
-                       🎓 Technology Educator 🚀 Digital Strategist | Expert Media Buyer in Advertising 📢 Chat Marketing Specialist
+                        🎓 Technology Educator 🚀 Digital Strategist | Expert Media Buyer in Advertising 📢 Chat
+                        Marketing Specialist
                     </p>
                     <p class="location">📍 Online</p>
                     <!-- <p class="location">Telegram: @yhauzeur</p> -->
@@ -36,58 +41,63 @@
             </div>
 
             <div class="social-links">
-                <a href="https://instagram.com/soyjacqueshauzeur" target="_blank" class="social-item" style="text-decoration:none;">
+                <a href="https://instagram.com/soyjacqueshauzeur" target="_blank" class="social-item"
+                    style="text-decoration:none;">
                     <div class="social-icon instagram">
-                        <img src="images/instagram.svg" alt="Instagram" style="width: 64px; height: 64px; object-fit: contain;">
+                        <img src="images/instagram.svg" alt="Instagram"
+                            style="width: 64px; height: 64px; object-fit: contain;">
                     </div>
                     <span class="social-name">Instagram</span>
                 </a>
-                <a href="https://t.me/soyjacqueshauzeur" target="_blank" class="social-item" style="text-decoration:none;">
+                <a href="https://t.me/soyjacqueshauzeur" target="_blank" class="social-item"
+                    style="text-decoration:none;">
                     <div class="social-icon telegram">
-                        <img src="images/telegram.svg" alt="Telegram" style="width: 64px; height: 64px; object-fit: contain;">
+                        <img src="images/telegram.svg" alt="Telegram"
+                            style="width: 64px; height: 64px; object-fit: contain;">
                     </div>
                     <span class="social-name">Telegram</span>
                 </a>
-                <a href="https://facebook.com/soyjacqueshauzeur" target="_blank" class="social-item" style="text-decoration:none;">
+                <a href="https://facebook.com/soyjacqueshauzeur" target="_blank" class="social-item"
+                    style="text-decoration:none;">
                     <div class="social-icon facebook">
-                        <img src="images/facebook.svg" alt="Facebook" style="width: 64px; height: 64px; object-fit: contain;">
+                        <img src="images/facebook.svg" alt="Facebook"
+                            style="width: 64px; height: 64px; object-fit: contain;">
                     </div>
                     <span class="social-name">Facebook</span>
                 </a>
-                <a href="https://linkedin.com/in/soyjacqueshauzeur" target="_blank" class="social-item" style="text-decoration:none;">
+                <a href="https://linkedin.com/in/soyjacqueshauzeur" target="_blank" class="social-item"
+                    style="text-decoration:none;">
                     <div class="social-icon linkedin">
-                        <img src="images/linkedin.svg" alt="LinkedIn" style="width: 64px; height: 64px; object-fit: contain;">
+                        <img src="images/linkedin.svg" alt="LinkedIn"
+                            style="width: 64px; height: 64px; object-fit: contain;">
                     </div>
                     <span class="social-name">LinkedIn</span>
                 </a>
                 <a href="https://daroga.online/" target="_blank" class="social-item" style="text-decoration:none;">
                     <div class="social-icon business">
-                        <img src="images/daroga.svg" alt="Business" style="width: 64px; height: 64px; object-fit: contain;">
+                        <img src="images/daroga.svg" alt="Business"
+                            style="width: 64px; height: 64px; object-fit: contain;">
                     </div>
                     <span class="social-name">Daroga Online</span>
                 </a>
-                <a href="https://daroga.online/soyjacqueshauzeur" target="_blank" class="social-item" style="text-decoration:none;">
+                <a href="https://daroga.online/soyjacqueshauzeur" target="_blank" class="social-item"
+                    style="text-decoration:none;">
                     <div class="social-icon portafolio">
-                        <img src="images/business.svg" alt="Portafolio" style="width: 64px; height: 64px; object-fit: contain;">
+                        <img src="images/business.svg" alt="Portafolio"
+                            style="width: 64px; height: 64px; object-fit: contain;">
                     </div>
                     <span class="social-name">My Portfolio</span>
                 </a>
             </div>
         </div>
     </div>
+
+    <div class="footer">
+        Copywriting | Меня Daroga Online <span id="footer-year"></span>
+    </div>
     <script>
-    const copyDiv = document.createElement('div');
-    copyDiv.style.position = 'fixed';
-    copyDiv.style.left = '0';
-    copyDiv.style.bottom = '0';
-    copyDiv.style.width = '100%';
-    copyDiv.style.color = '#fff';
-    copyDiv.style.textAlign = 'center';
-    copyDiv.style.padding = '12px 0 24px 0';
-    copyDiv.style.fontSize = '1.1em';
-    copyDiv.style.background = 'transparent';
-    copyDiv.textContent = `Copywight | Меня Daroga Online ${new Date().getFullYear()}`;
-    document.body.appendChild(copyDiv);
+        document.getElementById('footer-year').textContent = new Date().getFullYear();
     </script>
 </body>
+
 </html>

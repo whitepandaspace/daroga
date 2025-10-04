@@ -25,9 +25,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="0.49232167"
-     inkscape:cx="1485.8172"
-     inkscape:cy="226.47795"
+     inkscape:zoom="0.36214844"
+     inkscape:cx="1064.4806"
+     inkscape:cy="247.13623"
      inkscape:window-width="1600"
      inkscape:window-height="863"
      inkscape:window-x="0"
@@ -45,8 +45,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-660.66418,162.49359)"><g
-       id="business"><circle
+     transform="translate(-654.06838,163.04536)"><g
+       id="business"
+       transform="translate(-6.5958024,-0.55176382)"><circle
          style="fill:#ffffff;fill-opacity:1;stroke-width:0.243843;paint-order:stroke fill markers"
          id="path26-5"
          cx="720.66418"

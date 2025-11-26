@@ -16,6 +16,25 @@
             padding: 20px;
         }
 
+        .social-item-thumbnail {
+            --size-thumbnail: 240px;
+            height: var(--size-thumbnail);
+            width: var(--size-thumbnail);
+            object-fit: contain;
+        }
+
+        .course-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 15px 20px;
+            background: #2a2a2a;
+            border-radius: 8px;
+            transition: transform 0.3s, background 0.3s;
+            cursor: pointer;
+            flex-wrap: wrap;
+        }
+
         .profile-container {
             max-width: 1440px;
             width: 100%;
@@ -168,7 +187,7 @@
             border-radius: 12px;
             padding: 20px;
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 15px;
         }
 
@@ -231,7 +250,7 @@
         }
 
         .social-name {
-            font-size: 1em;
+            font-size: 1.2em;
             color: #ffffff;
             font-weight: 500;
             margin-left: 1em;

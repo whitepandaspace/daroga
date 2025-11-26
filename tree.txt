@@ -1,6 +1,0 @@
-.
-├── css
-├── curso-de-composicion-para-fotografia
-└── images
-
-4 directories

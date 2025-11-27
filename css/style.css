@@ -40,6 +40,7 @@
             img {
                 height: auto;
                 max-width: 320px;
+                border-radius: 1em;
             }
         }
 
@@ -201,14 +202,18 @@
 
         .social-item {
             display: flex;
-            align-items: center;
             gap: 12px;
+            flex-wrap: wrap;
             padding: 15px 20px;
             background: #2a2a2a;
             border-radius: 8px;
             transition: transform 0.3s, background 0.3s;
             cursor: pointer;
-        }
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            }
 
         .social-item:hover {
             transform: translateY(-2px);

@@ -236,6 +236,7 @@ body {
 	text-transform: capitalize;
 	background: var(--purchase);
 	color: var(--white-color);
+	font-size: 1.5em;
 	border-radius: 100px;
 	padding: 17px 24px;
 	border: none;

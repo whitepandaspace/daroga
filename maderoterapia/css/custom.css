@@ -1,9 +1,3 @@
-/* ----------------------------------------------------------------------------------------
-* Author        : Awaiken
-* Template Name : Sellsmart - Single Product Landing page HTML Template
-* File          : CSS File
-* Version       : 1.0
-* ---------------------------------------------------------------------------------------- */
 /* INDEX
 ----------------------------------------------------------------------------------------
 01. Global Variables
@@ -47,21 +41,22 @@
 	--white-color: #FFFFFF;
 	--divider-color: #2C2C2C1A;
 	--dark-divider-color: #FFFFFF1A;
-	--error-color: #ff0000;
-	--purchase: #ff0000;
+	--error-color: #65462e3;
+	--purchase: #65462e;
 	/* --default-font				: "Mona Sans", sans-serif; */
 	--default-font: "Ubuntu", sans-serif;
-	--b50: #f0faff;
-	--b100: #dff4ff;
-	--b200: #b9eafe;
-	--b300: #7bdbfe;
-	--b400: #34c9fc;
-	--b500: #0ab4ed;
-	--b600: #0091cb;
-	--b700: #0076a8;
-	--b800: #056187;
-	--b900: #0a5070;
-	--b950: #07334a;
+	--b50: #fdf6ef;
+	--b100: #fbead9;
+	--b200: #f6d2b2;
+	--b300: #f0b381;
+	--b400: #ec9965;
+	--b500: #e46b2b;
+	--b600: #d55321;
+	--b700: #b13e1d;
+	--b800: #8d331f;
+	--b900: #722c1c;
+	--b950: #3d140d;
+
 }
 
 /************************************/

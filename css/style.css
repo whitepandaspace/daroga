@@ -36,6 +36,7 @@
             flex-direction: column;
             align-content: center;
             justify-content: center;
+            overflow: hidden;
             
             img {
                 height: auto;
@@ -196,7 +197,8 @@
             border-radius: 12px;
             padding: 20px;
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            /* grid-template-columns: repeat(3, 1fr); */
+            grid-template-columns: repeat(auto-fit, minmax(clamp(250px, 33%, 400px), 1fr));
             gap: 15px;
         }
 
